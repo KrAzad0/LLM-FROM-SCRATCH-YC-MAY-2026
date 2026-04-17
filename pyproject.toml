@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-from-scratch"
+version = "0.1.0"
+description = "From-scratch tiny decoder-only LLM in PyTorch"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+]
+
+[tool.setuptools]
+packages = ["llm_from_scratch"]
